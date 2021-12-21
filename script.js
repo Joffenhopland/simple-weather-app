@@ -50,7 +50,7 @@ function success(position) {
   )
     .then((response) => response.json())
     .then((position) =>
-      weather.fetchWeather(position.results[0].components.postal_city)
+      weather.fetchWeather(position.results[0].components.country)
     );
 }
 
