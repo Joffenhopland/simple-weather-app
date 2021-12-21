@@ -35,7 +35,7 @@ let weather = {
 
 //fetch current location//
 function initGeoLocation() {
-  weather.fetchWeather("New York");
+//   weather.fetchWeather("New York");
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(success, fail);
   } else {
